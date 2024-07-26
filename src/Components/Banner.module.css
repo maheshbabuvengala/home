@@ -1,0 +1,39 @@
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #f0e0d0, #6191a7);
+  border-radius: 8px;
+  height: 80vh;
+}
+
+.bannerL {
+  width: 50%;
+}
+
+.text {
+  width: 95%;
+  margin: auto;
+}
+
+.text1 {
+  font-size: 3.6rem;
+}
+
+.text2 {
+  font-size: 3.7rem;
+  color: var(--google-color);
+}
+
+.text3 {
+  font-size: 2rem;
+}
+
+.bannerR {
+  width: 50%;
+}
+/* 
+.bannerR img {
+  width: 100%;
+} */
