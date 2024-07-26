@@ -1,7 +1,9 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "react-bootstrap";
-import Banner from "./Banner";
+import Banner from "./Banners/Banner";
+import Banner2 from "./Banners/Banner2";
+import Banner3 from "./Banners/Banner3";
 
 function App() {
   return (
@@ -14,11 +16,11 @@ function App() {
         </Carousel.Item>
         <Carousel.Item>
           {/* <img className="d-block w-100" src="image2.jpg" alt="Second slide" /> */}
-          <Banner />
+          <Banner2 />
         </Carousel.Item>
         <Carousel.Item>
           {/* <img className="d-block w-100" src="image3.jpg" alt="Third slide" /> */}
-          <Banner />
+          <Banner3 />
         </Carousel.Item>
       </Carousel>
     </div>

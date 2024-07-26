@@ -9,6 +9,14 @@ const Navbar = () => {
         style={{ backgroundColor: "var(--nudepink)" }}
       >
         <div className="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+              alt=""
+              width="30"
+              height="24"
+            />
+          </a>
           <a className="navbar-brand " href="#">
             <h3>Facuilty</h3>
           </a>
